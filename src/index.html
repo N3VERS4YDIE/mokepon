@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MOKEPON 🔥💧🌱</title>
+    <link rel="shortcut icon" href="../img/moke_ball.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../node_modules/animejs/lib/anime.min.js"></script>
+</head>
+
+<body>
+    <audio id="bg-audio" autoplay preload="auto">
+        <source src="../sounds/bg.mp3" type="audio/mp3">
+    </audio>
+    <button id="audio_button">🔈</button>
+    <div id="container">
+        <img id="title" src="../img/title.png" alt="Mokepon Title" border="0"></img>
+        <div id="panel">
+            <section id="selection_section">
+                <h2>Choose Your Pet</h2>
+
+                <div id="pets_div"></div>
+
+                <p>
+                    <button id="select_button">Select</button>
+                </p>
+            </section>
+
+            <section id="attack_section">
+                <h2>Choose Your Attack</h2>
+
+                <p id="attacks_div"></p>
+                <p>
+                    <button id="fire_button">Fire 🔥</button>
+                    <button id="water_button">Water 💧</button>
+                    <button id="earth_button">Earth 🌱</button>
+                </p>
+            </section>
+
+            <section id="result_section">
+                <h2>Attack</h2>
+                <div id="current_result_div"></div>
+            </section>
+
+            <section id="lives_section">
+                <h2>Lives</h2>
+                <p>Your <span id="player_pet_span"></span>: <span id="player_pet_lives_span">3</span></p>
+                <p><span id="enemy_pet_span"></span>: <span id="enemy_pet_lives_span">3</span></p>
+            </section>
+
+            <section id="winner_section">
+                <h2>Winner 👑</h2>
+                <div id="winner_div"></div>
+            </section>
+
+            <section id="restart_section">
+                <button id="restart_button">Play Again</button>
+            </section>
+
+            <section id="messages_section">
+                <h2>Attack Log</h2>
+                <ol id="attacks_log_ol"></ol>
+            </section>
+        </div>
+    </div>
+    <script src="../dist/model.js"></script>
+    <script src="../dist/init.js"></script>
+    <script src="../dist/function.js"></script>
+    <script src="../dist/main.js"></script>
+</body>
+
+</html>
