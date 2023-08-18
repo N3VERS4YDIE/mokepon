@@ -68,3 +68,7 @@ To run the Mokepon project on your local machine, follow these steps:
    - Alternatively, you can set up a local server using tools like `live-server` or `http-server`, and access the project through the server's URL.
 
 5. You should now see the Mokepon application running in your browser. Interact with the app and explore the interactive animations!
+
+## License
+
+This project is released under the [MIT License](LICENSE). Feel free to modify and extend this project for your own use!.
