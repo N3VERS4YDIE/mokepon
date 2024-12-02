@@ -2,7 +2,7 @@
 
 This is a web application focused on showcasing TypeScript development and interactive animations trough a pet battle game which involves selection of attacks to emerge victorious.
 
-[![Mokepon Gameplay](gameplay-thumbnail.png)](https://youtu.be/V1EOQuuH6vM)
+https://github.com/user-attachments/assets/f8b3558f-3476-466c-b4c1-7947d3cbacbc
 
 ## Directory Structure
 
